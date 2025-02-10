@@ -9,8 +9,12 @@ permissions:
   contents: write
 
 jobs:
-  check:
+  sotsuron:
     uses: ./.github/workflows/build-and-release.yml
     with:
-# 以下の `document` を tex ファイルのファイル名から '.tex' を除いたものに変更
-      file: document
+      file: sotsuron
+
+  gaiyou:
+    uses: ./.github/workflows/build-and-release.yml
+    with:
+      file: gaiyou
