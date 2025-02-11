@@ -10,11 +10,11 @@ permissions:
 
 jobs:
   sotsuron:
-    uses: ./.github/workflows/build-and-release.yml
+    uses: smkwlab/latex-release-action@v1
     with:
       file: sotsuron
 
   gaiyou:
-    uses: ./.github/workflows/build-and-release.yml
+    uses: smkwlab/latex-release-action@v1
     with:
       file: gaiyou
