@@ -16,4 +16,4 @@ jobs:
     steps:
       - uses: smkwlab/latex-release-action@405d9e2533d9da5bdc061bda172cd406d22db287
         with:
-          file: sotsuron, gaiyou
+          files: sotsuron, gaiyou
