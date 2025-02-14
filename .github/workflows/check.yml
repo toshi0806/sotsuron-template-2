@@ -7,12 +7,7 @@ permissions:
   contents: write
 
 jobs:
-  sotsuron:
-    uses: smkwlab/latex-release-action@v1
+  build:
+    uses: smkwlab/latex-release-action@405d9e2533d9da5bdc061bda172cd406d22db287
     with:
-      file: sotsuron
-
-  gaiyou:
-    uses: smkwlab/latex-release-action@v1
-    with:
-      file: gaiyou
+      file: sotsuron, gaiyou
