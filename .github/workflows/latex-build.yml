@@ -14,6 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     container: ghcr.io/smkwlab/texlive-ja-textlint:2023c-alpine
     steps:
-      - uses: smkwlab/latex-release-action@405d9e2533d9da5bdc061bda172cd406d22db287
+      - uses: smkwlab/latex-release-action@v2
         with:
           files: sotsuron, gaiyou
